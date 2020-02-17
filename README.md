@@ -11,8 +11,11 @@
 
 ## 安裝方法
 
-1. 喺 Terminal 打 `./install.sh`。
-2. 重新部署 Rime 輸入法。
+1. 自己裝咗 Rime 先。
+   * MacOS: [Squirrel](https://github.com/rime/squirrel)
+   * Linux: [ibus-rime](https://github.com/rime/ibus-rime)
+2. 喺 Terminal 打 `./install.sh`。
+3. 重新部署 Rime 輸入法。
 
 ## 重碼問題
 
