@@ -1,8 +1,8 @@
 patch:
   abc_segmentor/extra_tags:
     - reverse_lookup
-  reverse_lookup/dictionary: jyutping
-  reverse_lookup/prism: jyutping
+  reverse_lookup/dictionary: jyut6ping3
+  reverse_lookup/prism: jyut6ping3
   reverse_lookup/preedit_format: []
   reverse_lookup/tips: "〔粵拼〕"
   translator/dictionary: cangjie5.cj3ext
