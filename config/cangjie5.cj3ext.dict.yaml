@@ -12,7 +12,7 @@
 name: "cangjie5.cj3ext"
 version: "0.1"
 sort: original
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 import_tables:
 - cangjie5
 ...

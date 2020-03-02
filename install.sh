@@ -27,6 +27,7 @@ symlink "${CONFIG_DIR}/cangjie5.cj3ext.dict.yaml" "${RIME_DIR}/cangjie5.cj3ext.d
 symlink "${CONFIG_DIR}/cangjie5.custom.yaml" "${RIME_DIR}/cangjie5.custom.yaml"
 symlink "${CONFIG_DIR}/default.custom.yaml" "${RIME_DIR}/default.custom.yaml"
 symlink "${CONFIG_DIR}/jyut6ping3.custom.yaml" "${RIME_DIR}/jyut6ping3.custom.yaml"
+symlink "${CONFIG_DIR}/jyut6ping3.pure.dict.yaml" "${RIME_DIR}/jyut6ping3.pure.dict.yaml"
 symlink "${CONFIG_DIR}/squirrel.custom.yaml" "${RIME_DIR}/squirrel.custom.yaml"
 
 echo "Please manually deploy rime again."
