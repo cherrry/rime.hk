@@ -3,7 +3,13 @@ patch:
     - reverse_lookup
   reverse_lookup/dictionary: jyut6ping3
   reverse_lookup/prism: jyut6ping3
-  reverse_lookup/preedit_format: []
+  reverse_lookup/preedit_format: 
+    - "xform/([aeioumngptk])vv/$1⁴/"
+    - "xform/([aeioumngptk])xx/$1⁵/"
+    - "xform/([aeioumngptk])qq/$1⁶/"
+    - "xform/([aeioumngptk])v/$1¹/"
+    - "xform/([aeioumngptk])x/$1²/"
+    - "xform/([aeioumngptk])q/$1³/"
   reverse_lookup/tips: "〔粵拼〕"
   translator/dictionary: cangjie5.cj3ext
   translator/enable_encoder: false
