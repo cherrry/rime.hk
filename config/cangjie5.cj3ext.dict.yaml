@@ -14,7 +14,7 @@ version: "0.1"
 sort: original
 use_preset_vocabulary: false
 import_tables:
-- cangjie5
+- cangjie5.clean
 ...
 
 昨	ahs
