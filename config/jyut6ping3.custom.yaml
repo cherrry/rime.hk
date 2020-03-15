@@ -1,11 +1,6 @@
 patch:
-  abc_segmentor/extra_tags:
-    - reverse_lookup
-  translator/dictionary: jyut6ping3.pure
-  reverse_lookup/dictionary: cangjie5.cj3ext
-  reverse_lookup/preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-  reverse_lookup/tips: "〔倉頡〕"
+  abc_segmentor/extra_tags: []
+  translator/dictionary: jyut6ping3.clean
   speller/algebra:
     - "derive/([123456])//"
     - "xform/1/v/"

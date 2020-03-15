@@ -27,8 +27,8 @@ SYMLINK_CONFIGS=(
   "cangjie5.clean.dict.yaml"
   "cangjie5.custom.yaml"
   "default.custom.yaml"
+  "jyut6ping3.clean.dict.yaml"
   "jyut6ping3.custom.yaml"
-  "jyut6ping3.pure.dict.yaml"
   "squirrel.custom.yaml"
 )
 for file in "${SYMLINK_CONFIGS[@]}"; do
