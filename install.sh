@@ -22,13 +22,17 @@ if [ `uname` == "Darwin" ]; then
 fi
 mkdir -p "${RIME_DIR}"
 
-CONFIG_DIR="${DIR}/config"
-symlink "${CONFIG_DIR}/cangjie5.cj3ext.dict.yaml" "${RIME_DIR}/cangjie5.cj3ext.dict.yaml"
-symlink "${CONFIG_DIR}/cangjie5.clean.dict.yaml" "${RIME_DIR}/cangjie5.clean.dict.yaml"
-symlink "${CONFIG_DIR}/cangjie5.custom.yaml" "${RIME_DIR}/cangjie5.custom.yaml"
-symlink "${CONFIG_DIR}/default.custom.yaml" "${RIME_DIR}/default.custom.yaml"
-symlink "${CONFIG_DIR}/jyut6ping3.custom.yaml" "${RIME_DIR}/jyut6ping3.custom.yaml"
-symlink "${CONFIG_DIR}/jyut6ping3.pure.dict.yaml" "${RIME_DIR}/jyut6ping3.pure.dict.yaml"
-symlink "${CONFIG_DIR}/squirrel.custom.yaml" "${RIME_DIR}/squirrel.custom.yaml"
+SYMLINK_CONFIGS=(
+  "cangjie5.cj3ext.dict.yaml"
+  "cangjie5.clean.dict.yaml"
+  "cangjie5.custom.yaml"
+  "default.custom.yaml"
+  "jyut6ping3.custom.yaml"
+  "jyut6ping3.pure.dict.yaml"
+  "squirrel.custom.yaml"
+)
+for file in "${SYMLINK_CONFIGS[@]}"; do
+  symlink "${DIR}/config/${file}" "${RIME_DIR}/${file}"
+done
 
 echo "Please manually deploy rime again."
