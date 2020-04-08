@@ -1,8 +1,8 @@
 patch:
   abc_segmentor/extra_tags:
     - reverse_lookup
-  reverse_lookup/dictionary: jyut6ping3.pure
-  reverse_lookup/prism: jyut6ping3.pure
+  reverse_lookup/dictionary: jyut6ping3.clean
+  reverse_lookup/prism: jyut6ping3.clean
   reverse_lookup/preedit_format: 
     - "xform/([aeioumngptk])vv/$1⁴/"
     - "xform/([aeioumngptk])xx/$1⁵/"
