@@ -15,6 +15,7 @@ sort: original
 use_preset_vocabulary: false
 import_tables:
 - cangjie5.clean
+- kana
 ...
 
 昨	ahs
