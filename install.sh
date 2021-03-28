@@ -30,6 +30,7 @@ SYMLINK_CONFIGS=(
   "jyut6ping3.clean.dict.yaml"
   "jyut6ping3.custom.yaml"
   "kana.dict.yaml"
+  "souketsu.dict.yaml"
   "squirrel.custom.yaml"
 )
 for file in "${SYMLINK_CONFIGS[@]}"; do

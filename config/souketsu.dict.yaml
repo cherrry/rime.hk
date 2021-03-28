@@ -1,0 +1,13 @@
+# Additional cangjie dictionary with Japanese kanji encoded using the cangjie
+# encoding of the similar-looking word in Chinese. 
+
+---
+name: "souketsu"
+version: "0"
+sort: original
+...
+
+渋	eylh
+発	nonhe
+𫝼	qnoe
+歩	ylmh
