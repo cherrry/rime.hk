@@ -1,6 +1,16 @@
 patch:
   abc_segmentor/extra_tags:
     - reverse_lookup
+  speller/algebra:
+      - "derive/zzz$/k/"
+      - "derive/zzz$/g/"
+      - "derive/zzz$/s/"
+      - "derive/zzz$/z/"
+      - "derive/zzz$/t/"
+      - "derive/zzz$/d/"
+      - "derive/zzz$/b/"
+      - "derive/zzz$/p/"
+      - "xform/zzz$//"
   reverse_lookup/dictionary: jyut6ping3.clean
   reverse_lookup/prism: jyut6ping3.clean
   reverse_lookup/preedit_format: 
