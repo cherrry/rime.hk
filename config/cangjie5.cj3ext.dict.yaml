@@ -14,7 +14,7 @@ version: "0.1"
 sort: original
 use_preset_vocabulary: false
 import_tables:
-- cangjie5.clean
+- cangjie5.tc.tier1
 - souketsu
 - kana
 ...

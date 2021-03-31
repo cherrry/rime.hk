@@ -26,6 +26,7 @@ SYMLINK_CONFIGS=(
   "cangjie5.cj3ext.dict.yaml"
   "cangjie5.clean.dict.yaml"
   "cangjie5.custom.yaml"
+  "cangjie5.tc.tier1.dict.yaml"
   "default.custom.yaml"
   "jyut6ping3.clean.dict.yaml"
   "jyut6ping3.custom.yaml"
