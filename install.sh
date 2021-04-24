@@ -14,7 +14,7 @@ symlink() {
 
 git clone https://github.com/rime/plum.git
 cd "${DIR}/plum"
-"${DIR}/plum/rime-install" "cangjie" "cantonese"
+"${DIR}/plum/rime-install" "cherrry/rime-cangjie" "cantonese"
 
 RIME_DIR="${HOME}/.config/ibus/rime"
 if [ `uname` == "Darwin" ]; then
