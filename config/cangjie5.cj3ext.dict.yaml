@@ -14,7 +14,7 @@ version: "0.1"
 sort: original
 use_preset_vocabulary: false
 import_tables:
-- cangjie5.noto
+- cangjie5.noto.tc
 - souketsu
 - kana
 ...
