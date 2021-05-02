@@ -13,8 +13,8 @@ sort: original
 use_preset_vocabulary: false
 import_tables:
 - cangjie5.order
-- cangjie5.noto.tc
 - cangjie5.cj3ext
+- cangjie5.noto.tc
 - cangjie5.kanji
 - cangjie5.kanji.cj3ext
 - kana
