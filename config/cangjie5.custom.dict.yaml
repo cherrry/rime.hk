@@ -1,0 +1,21 @@
+# encoding: utf-8
+#
+# Author: Kenneth So <kennethso168@gmail.com>
+# 修改自 https://github.com/definite/ibus-table-chinese 的 CangJie3 和 CangJie5 碼表
+# 該些碼表源於 chinesecj.com (倉頡之友‧馬來西亞)
+# License: LGPLv3
+#
+
+---
+name: "cangjie5.custom"
+version: "0.1"
+sort: original
+use_preset_vocabulary: false
+import_tables:
+- cangjie5.order
+- cangjie5.noto.tc
+- cangjie5.cj3ext
+- cangjie5.kanji
+- cangjie5.kanji.cj3ext
+- kana
+...

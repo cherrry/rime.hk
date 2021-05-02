@@ -23,13 +23,12 @@ fi
 mkdir -p "${RIME_DIR}"
 
 SYMLINK_CONFIGS=(
-  "cangjie5.cj3ext.dict.yaml"
   "cangjie5.custom.yaml"
+  "cangjie5.custom.dict.yaml"
   "default.custom.yaml"
   "jyut6ping3.clean.dict.yaml"
   "jyut6ping3.custom.yaml"
   "kana.dict.yaml"
-  "souketsu.dict.yaml"
   "squirrel.custom.yaml"
 )
 for file in "${SYMLINK_CONFIGS[@]}"; do

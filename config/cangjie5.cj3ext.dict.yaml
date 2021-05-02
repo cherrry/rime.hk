@@ -5,19 +5,14 @@
 # 該些碼表源於 chinesecj.com (倉頡之友‧馬來西亞)
 # License: LGPLv3
 #
-# Original Source: https://github.com/kennethso168/rime-cangjie3-extension
-# Copied directly for because of different customization in cangjie5.custom.yaml.
 
 ---
 name: "cangjie5.cj3ext"
 version: "0.1"
-sort: original
-use_preset_vocabulary: false
+sort: by_weight
+use_preset_vocabulary: true
 import_tables:
-- cangjie5.order
-- cangjie5.noto.tc
-- souketsu
-- kana
+- cangjie5
 ...
 
 昨	ahs
@@ -104,7 +99,6 @@ import_tables:
 徦	horye
 徲	hosyq
 犌	hqrye
-戶	hs
 乍	hs
 怎	hsp
 簧	htmc
@@ -211,7 +205,6 @@ import_tables:
 餽	oihi
 韱	oilmm
 僂	olwv
-伍	omdm
 儮	omdm
 翕	omrm
 龕	omrp
@@ -293,7 +286,6 @@ import_tables:
 彥	yhhhh
 產	yhhqm
 迗	yhk
-方	yhs
 迮	yhs
 螤	yihxo
 逸	ynui
