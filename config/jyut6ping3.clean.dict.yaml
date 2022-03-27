@@ -6,7 +6,8 @@ version: "0.1"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
-- jyut6ping3
+- jyut6ping3.chars
+- jyut6ping3.words
 - jyut6ping3.maps
 ...
 
