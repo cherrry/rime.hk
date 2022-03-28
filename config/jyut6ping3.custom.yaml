@@ -9,3 +9,5 @@ patch:
     - "xform/4/vv/"
     - "xform/5/xx/"
     - "xform/6/qq/"
+    - "derive/eo/oe/"
+    - "derive/oe(ng|k)$/eo$1/"
